@@ -1,0 +1,35 @@
+{
+  "admins": {
+    "johnsmith@email.com": {
+      "name": "John Smith",
+      "password": "Passw0rd!",
+      "sessionActive": true
+    },
+    "janedoe@email.com": {
+      "name": "Jane Doe",
+      "password": "P@s$word1",
+      "sessionActive": true
+    }
+  },
+  "quizzes": {
+    "211604480": {
+      "name": "My first quiz :)",
+      "owner": "johnsmith@email.com",
+      "questions": [],
+      "thumbnail": null,
+      "active": null,
+      "createdAt": "2023-04-19T10:08:49.916Z"
+    }
+  },
+  "sessions": {
+    "784232": {
+      "quizId": "211604480",
+      "position": -1,
+      "isoTimeLastQuestionStarted": null,
+      "players": {},
+      "questions": [],
+      "active": false,
+      "answerAvailable": false
+    }
+  }
+}
